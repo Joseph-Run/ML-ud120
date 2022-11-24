@@ -70,4 +70,5 @@ def download():
 
 
 if __name__ == '__main__':
-    [fn() for fn in [check_imports, download]]
+    #[fn() for fn in [check_imports, download]]
+    [fn() for fn in [check_imports]]
